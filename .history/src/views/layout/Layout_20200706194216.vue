@@ -40,78 +40,59 @@ export default {
 .box {
   width: 1340px;
   height: 50px;
-  background: rgb(248, 248, 248);
+  background: rgb(248,248,248);
   display: flex;
 }
 .box1 {
-  width: 120px;
+  width: 100px;
   height: 50px;
   margin-left: 30px;
   margin-top: 10px;
-  font-size: 14px;
-}
-.box2 {
-  width: 120px;
-  height: 50px;
-  margin-left: -65px;
-  margin-top: 10px;
-  font-size: 14px;
-}
-.box3 {
-  width: 120px;
-  height: 50px;
-  margin-left: -65px;
-  margin-top: 10px;
-  font-size: 14px;
-}
-.box4 {
-  width: 120px;
+  font-size: 18px;
+}.box2 {
+  width: 100px;
   height: 50px;
   margin-left: -35px;
-  margin-top: 10px;
-  font-size: 14px;
+}
+.box3 {
+  width: 100px;
+  height: 50px;
+  margin-left: -35px;
+}
+.box4 {
+  width: 100px;
+  height: 50px;
+  margin-left: -10px;
 }
 .box5 {
   width: 120px;
   height: 50px;
-  margin-left: -35px;
-  margin-top: 10px;
-  font-size: 14px;
+  margin-left: -10px;
 }
 .box6 {
   width: 120px;
   height: 50px;
-  margin-left: -5px;
-  margin-top: 10px;
-  font-size: 14px;
+  margin-left: 20px;
 }
 .box7 {
   width: 120px;
   height: 50px;
-  margin-left: -5px;
-  margin-top: 10px;
-  font-size: 14px;
+  margin-left: 30px;
 }
 .box8 {
-  width: 120px;
+  width: 100px;
   height: 50px;
-  margin-left: 5px;
-  margin-top: 10px;
-  font-size: 14px;
+  margin-left: 20px;
 }
 .box9 {
-  width: 120px;
+  width: 100px;
   height: 50px;
-  margin-left: -30px;
-  margin-top: 10px;
-  font-size: 14px;
+  margin-left: 10px;
 }
 .box10 {
-  width: 120px;
+  width: 100px;
   height: 50px;
-  margin-left: -50px;
-  margin-top: 10px;
-  font-size: 14px;
+  margin-left: -10px;
 }
 .icon1 {
   width: 100px;

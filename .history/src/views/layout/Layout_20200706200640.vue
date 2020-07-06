@@ -11,12 +11,7 @@
       <div class="box8">. 宣传视频</div>
       <div class="box9">. Github</div>
       <div class="box10">. 商用授权</div>
-      <div class="icon1">
-        <Icon type="ios-person" />
-      </div>
-      <div class="icon2">
-        <Icon type="md-cart" />
-      </div>
+     
     </div>
   </div>
 </template>
@@ -109,7 +104,7 @@ export default {
 .box10 {
   width: 120px;
   height: 50px;
-  margin-left: -50px;
+  margin-left: -10px;
   margin-top: 10px;
   font-size: 14px;
 }
