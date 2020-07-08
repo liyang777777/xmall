@@ -44,7 +44,7 @@ export default {
     // 参数:
     // username: 用户名
     // password: 密码
-    login({username, password}) {
+    login(username, password) {
         return service.post(`/users/login`, {
             username,
             password
@@ -55,7 +55,7 @@ export default {
     // 参数:
     // username: 用户名
     // password: 密码
-    register({username, password}) {
+    register([username, password]) {
         return service.post('/users/register', {
             username,
             password,

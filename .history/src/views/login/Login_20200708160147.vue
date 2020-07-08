@@ -31,17 +31,6 @@
       </div>
       <button class="btn1" @click="login">登录</button>
       <button class="btn2" @click="retur">返回</button>
-      <div class="clk">
-        <div class="click1"></div>
-      </div>
-      <div class="clk">
-        <div class="click2">
-          其他账号登录:
-          <div>
-            <img src="http://xmall.exrick.cn/static/images/other-login.png" class="img" />
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </template>
@@ -108,26 +97,6 @@ export default {
           document.getElementsByTagName("head")[0].appendChild(script);
         });
       }
-    },
-    login() {
-      this.$api
-        .login({ username: this.username, password: this.password })
-        .then(res => {
-          if (this.password !== this.rpassword) {
-            this.$Message.error(res.msg);
-          } else if (this.username) {
-            this.$Message.error(res.msg);
-          } else {
-            this.$Message.success(res.msg);
-          }
-        })
-        .catch(err => {});
-    },
-    Register() {
-      this.$router.push({
-        path: "/register",
-        query: { username: this.username, password: this.password }
-      });
     }
   },
   mounted() {
@@ -240,29 +209,5 @@ export default {
   position: absolute;
   top: 470px;
   left: 110px;
-}
-.clk {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.click1 {
-  width: 320px;
-  height: 40px;
-  margin-top: 500px;
-  margin-left: 50px;
-  border-bottom: 1px solid rgb(150, 150, 150);
-}
-.click2 {
-  width: 320px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
-}
-.img {
-  margin-left: 20px;
-  margin-top: 8px;
 }
 </style>

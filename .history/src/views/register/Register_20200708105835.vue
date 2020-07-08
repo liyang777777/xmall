@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="b-input">
-          <Checkbox v-model="single"></Checkbox>我已阅读并理解
+          <Radio v-model="single"></Radio>我已阅读并理解
           <a href>法律声明</a>和
           <a href>隐私条款</a>
         </div>

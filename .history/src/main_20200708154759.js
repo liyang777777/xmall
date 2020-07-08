@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import ViewUI from 'view-design';
 import 'view-design/dist/styles/iview.css';
-import api from './https/api'
+import api from './http/api'
 Vue.config.productionTip = false
 Vue.use(ViewUI);
 Vue.prototype.$api = api

@@ -31,17 +31,18 @@
       </div>
       <button class="btn1" @click="login">登录</button>
       <button class="btn2" @click="retur">返回</button>
-      <div class="clk">
-        <div class="click1"></div>
-      </div>
-      <div class="clk">
-        <div class="click2">
-          其他账号登录:
-          <div>
-            <img src="http://xmall.exrick.cn/static/images/other-login.png" class="img" />
+       <div class="clk">
+          <div class="click1"></div>
+        </div>
+         <div class="clk">
+          <div class="click2">
+           其他账号登录:
+            <div>
+              <img src="http://xmall.exrick.cn/static/images/other-login.png" class="img">
+            </div>
+            
           </div>
         </div>
-      </div>
     </div>
   </div>
 </template>
@@ -56,10 +57,7 @@ const extend = function(to, _from) {
 export default {
   name: "",
   props: {
-    type: {
-      type: String,
-      default: "click"
-    },
+  
     scene: {
       type: [String, Number],
       default: 0
@@ -124,10 +122,10 @@ export default {
         .catch(err => {});
     },
     Register() {
-      this.$router.push({
-        path: "/register",
-        query: { username: this.username, password: this.password }
-      });
+        this.$router.push({
+            path: "/register",
+            query: { username: this.username, password: this.password }
+          });
     }
   },
   mounted() {
