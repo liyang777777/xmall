@@ -1,10 +1,10 @@
 <template>
   <!-- 登录 -->
   <div>
-    <div>
-      <img src="../../assets/log.jpg" class="image" />
-    </div>
     <div class="All">
+      <div>
+        <img src="../../assets/log.jpg" class="image">
+      </div>
       <div class="title">M</div>
       <div class="All1">使用 XMall 账号 登录官网</div>
       <div class="ipt1">
@@ -155,17 +155,17 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-.image {
-  width: 1360px;
-  height: 700px;
-}
 .All {
   width: 450px;
   height: 600px;
   background: beige;
   left: 400px;
-  top: -660px;
+  top: 100px;
   position: relative;
+} 
+.image {
+  width: 1200px;
+  height: 600px;
 }
 .title {
   width: 70px;

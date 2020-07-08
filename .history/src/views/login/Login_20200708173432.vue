@@ -159,14 +159,14 @@ export default {
   width: 1360px;
   height: 700px;
 }
-.All {
-  width: 450px;
-  height: 600px;
-  background: beige;
-  left: 400px;
-  top: -660px;
-  position: relative;
-}
+// .All {
+//   width: 450px;
+//   height: 600px;
+//   background: beige;
+//   left: 400px;
+//   top: -660px;
+//   position: relative;
+// }
 .title {
   width: 70px;
   height: 50px;

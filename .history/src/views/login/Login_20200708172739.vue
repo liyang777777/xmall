@@ -156,15 +156,15 @@ export default {
 
 <style scoped lang='scss'>
 .image {
-  width: 1360px;
-  height: 700px;
+  width: 1200px;
+  height: 600px;
 }
 .All {
   width: 450px;
   height: 600px;
   background: beige;
   left: 400px;
-  top: -660px;
+  top: 100px;
   position: relative;
 }
 .title {

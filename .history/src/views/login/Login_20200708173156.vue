@@ -164,7 +164,7 @@ export default {
   height: 600px;
   background: beige;
   left: 400px;
-  top: -660px;
+  top: -600px;
   position: relative;
 }
 .title {

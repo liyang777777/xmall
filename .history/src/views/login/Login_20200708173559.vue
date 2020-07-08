@@ -1,9 +1,9 @@
 <template>
   <!-- 登录 -->
   <div>
-    <div>
+    <!-- <div>
       <img src="../../assets/log.jpg" class="image" />
-    </div>
+    </div> -->
     <div class="All">
       <div class="title">M</div>
       <div class="All1">使用 XMall 账号 登录官网</div>
@@ -155,10 +155,10 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-.image {
-  width: 1360px;
-  height: 700px;
-}
+// .image {
+//   width: 1360px;
+//   height: 700px;
+// }
 .All {
   width: 450px;
   height: 600px;

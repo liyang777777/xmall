@@ -155,10 +155,10 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-.image {
-  width: 1360px;
-  height: 700px;
-}
+// .image {
+//   width: 1360px;
+//   height: 700px;
+// }
 .All {
   width: 450px;
   height: 600px;
