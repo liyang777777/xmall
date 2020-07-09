@@ -1,5 +1,5 @@
 <template>
-  <!-- 首页轮播图 -->
+  <!-- 轮播图 -->
   <div class="rotationAll">
     <div class="rotation">
       <Carousel autoplay v-model="value2" loop class="img" :autoplay-speed='autoplaySpeed'>
@@ -27,8 +27,7 @@ export default {
   data() {
     return {
       value2: 0,
-      autoplaySpeed:4000,
-     
+      autoplaySpeed:4000
     };
   },
   methods: {},

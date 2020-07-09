@@ -19,7 +19,7 @@
           <div class="fontTop">捐赠</div>
           <div class="shu">丨</div>
           <div class="fontTop" @click="gotoLogin">
-           <Icon type="ios-person" size='20' />
+            <Icon type="logo-octocat" size="20" />
           </div>
           <div class="fontLast">
             <div class="car">
@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="fontTopT">
-            <Icon type="ios-person" size="20" />
+            <Icon type="logo-octocat" size="20" />
           </div>
           <div class="fontLast">
             <div class="carT">
@@ -102,17 +102,17 @@
     </div>
     <router-view />
     <!-- 底部 -->
-    <Buttom></Buttom>
+    <Last></Last>
   </div>
 </template>
 
 <script>
-import Buttom from '../../components/Home/Buttom'//底部
+import Last from "../components/home/Last"; //底部
 export default {
   name: "",
   props: {},
   components: {
-     Buttom, //底部
+     Last, //底部
   },
   data() {
     return {
@@ -166,7 +166,7 @@ export default {
       this.$router.push("/");
     },
     1() {
-      this.$router.push("/commodities");
+      this.$router.push("/all");
     }
   },
   mounted() {

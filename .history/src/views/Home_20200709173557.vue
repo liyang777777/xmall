@@ -36,7 +36,7 @@ export default {
         this.rotation = res.data[0].panelContents;//首页轮播图
         // console.log(this.rotation);
         this.activity = res.data[1].panelContents//活动版块1
-        // console.log(this.activity);
+        console.log(this.activity);
       })
       .catch(err => {
         console.log(err);

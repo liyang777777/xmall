@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="fontTopT">
-            <Icon type="ios-person" size="20" />
+            <Icon type="logo-octocat" size="20" />
           </div>
           <div class="fontLast">
             <div class="carT">

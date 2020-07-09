@@ -28,7 +28,7 @@ export default {
     return {
       value2: 0,
       autoplaySpeed:4000,
-     
+      rotation: []
     };
   },
   methods: {},

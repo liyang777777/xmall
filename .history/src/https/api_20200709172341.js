@@ -4,7 +4,7 @@ import service from './index'
 export default {
     // 1 获取首页数据(get)
     home() {
-        // console.log(res.data)
+        console.log(res.data)
         return service.get(`/goods/home`
         )
     },

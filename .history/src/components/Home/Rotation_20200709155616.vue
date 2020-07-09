@@ -27,8 +27,7 @@ export default {
   data() {
     return {
       value2: 0,
-      autoplaySpeed:4000,
-     
+      autoplaySpeed:4000
     };
   },
   methods: {},

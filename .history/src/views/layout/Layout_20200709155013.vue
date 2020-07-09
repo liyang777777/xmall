@@ -19,7 +19,7 @@
           <div class="fontTop">捐赠</div>
           <div class="shu">丨</div>
           <div class="fontTop" @click="gotoLogin">
-           <Icon type="ios-person" size='20' />
+         <Icon type="ios-person" />
           </div>
           <div class="fontLast">
             <div class="car">
@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="fontTopT">
-            <Icon type="ios-person" size="20" />
+            <Icon type="logo-octocat" size="20" />
           </div>
           <div class="fontLast">
             <div class="carT">
