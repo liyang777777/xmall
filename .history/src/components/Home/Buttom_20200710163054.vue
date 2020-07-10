@@ -58,7 +58,7 @@
               <Button type="text" class="bun">开发者中心</Button>
             </div>
           </div>
-          <div class="enter">蜀ICP备16030308号-1  蜀ICP证16030308号</div>
+          <div class="enter">蜀ICP备16030308号-1 蜀ICP证16030308号</div>
         </div>
       </Card>
     </div>
@@ -254,7 +254,5 @@ export default {
 .enter {
   width: 1300px;
   height: 20px;
-  margin-top: -130px;
-  margin-left: -150px;
 }
 </style>

@@ -254,7 +254,6 @@ export default {
 .enter {
   width: 1300px;
   height: 20px;
-  margin-top: -130px;
-  margin-left: -150px;
+  margin-top: -250px;
 }
 </style>

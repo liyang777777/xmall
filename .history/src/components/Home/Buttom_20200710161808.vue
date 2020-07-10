@@ -43,22 +43,22 @@
               <Button type="text" class="bun">在线帮助</Button>
             </div>
           </div>
-          <div class="cont">
-            <div class="cont1">Copyright ©2017, exrick.cn Co., Ltd. All Rights Reserved.本网站设计内容大部分属锤子科技</div>
-            <div class="cont2">|</div>
-            <div class="cont3">
+          <div>
+            <div>Copyright ©2017, exrick.cn Co., Ltd. All Rights Reserved.本网站设计内容大部分属锤子科技</div>
+            <div>|</div>
+            <div>
               <Button type="text" class="bun">法律声明</Button>
             </div>
-            <div class="cont4">|</div>
-            <div class="cont5">
+            <div>|</div>
+            <div>
               <Button type="text" class="bun">隐私条款</Button>
             </div>
-            <div class="cont6">|</div>
-            <div class="cont7">
+            <div>|</div>
+            <div>
               <Button type="text" class="bun">开发者中心</Button>
             </div>
           </div>
-          <div class="enter">蜀ICP备16030308号-1  蜀ICP证16030308号</div>
+          <div>蜀ICP备16030308号-1 蜀ICP证16030308号</div>
         </div>
       </Card>
     </div>
@@ -221,40 +221,5 @@ export default {
 .ipt1 {
   font-weight: 999;
   font-size: 30px;
-}
-.cont {
-  width: 1300px;
-  height: 180px;
-  display: flex;
-  margin-top: 150px;
-}
-.cont1 {
-  width: 570px;
-  height: 20px;
-  margin-left: 360px;
-}
-.cont2 {
-  margin-left: 10px;
-}
-.cont3 {
-  margin-left: 10px;
-}
-.cont4 {
-  margin-left: 10px;
-}
-.cont5 {
-  margin-left: 10px;
-}
-.cont6 {
-  margin-left: 10px;
-}
-.cont7 {
-  margin-left: 10px;
-}
-.enter {
-  width: 1300px;
-  height: 20px;
-  margin-top: -130px;
-  margin-left: -150px;
 }
 </style>

@@ -58,7 +58,7 @@
               <Button type="text" class="bun">开发者中心</Button>
             </div>
           </div>
-          <div class="enter">蜀ICP备16030308号-1  蜀ICP证16030308号</div>
+          <div class="enter">蜀ICP备16030308号-1 蜀ICP证16030308号</div>
         </div>
       </Card>
     </div>
@@ -226,35 +226,6 @@ export default {
   width: 1300px;
   height: 180px;
   display: flex;
-  margin-top: 150px;
-}
-.cont1 {
-  width: 570px;
-  height: 20px;
-  margin-left: 360px;
-}
-.cont2 {
-  margin-left: 10px;
-}
-.cont3 {
-  margin-left: 10px;
-}
-.cont4 {
-  margin-left: 10px;
-}
-.cont5 {
-  margin-left: 10px;
-}
-.cont6 {
-  margin-left: 10px;
-}
-.cont7 {
-  margin-left: 10px;
-}
-.enter {
-  width: 1300px;
-  height: 20px;
-  margin-top: -130px;
-  margin-left: -150px;
+  margin-top: 200px;
 }
 </style>
