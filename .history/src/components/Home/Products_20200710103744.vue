@@ -1,10 +1,10 @@
-<template>
-  <!-- 品牌周边 -->
+ <template>
+ <!-- 热门商品 -->
   <div class="All">
-    <div class="Official">
-      <div class="title">品牌周边</div>
+    <div class="Products">
+      <div class="title">热门商品</div>
       <div class="List">
-        <div v-for="(item,index) in Official" :key="index" class="hotList" :class="'hotList'+index">
+        <div v-for="(item,index) in products" :key="item.id" class="hotList" :class="'hotList'+index">
           <div class="picture">
             <img :src="item.picUrl" alt class="picture" />
           </div>
@@ -29,7 +29,7 @@
 export default {
   name: "",
   props: {
-    Official: {
+    products: {
       type: Array
     }
   },
@@ -38,9 +38,9 @@ export default {
     return {};
   },
   methods: {
-    gotoDetails(item) {
+    gotoDetails(item){
       // 另开一个网页打开路由并传参
-      window.open("/details?productId=" + item.productId);
+      window.open('/details?productId='+ item.productId)
     }
   },
   mounted() {},

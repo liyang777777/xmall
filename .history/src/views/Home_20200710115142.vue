@@ -63,7 +63,7 @@ export default {
     this.$api
       .home()
       .then(res => {
-        console.log(res.data);
+        // console.log(res.data);
         this.rotation = res.data[0].panelContents; //首页轮播图
         // console.log(this.rotation);
         this.activity = res.data[1].panelContents; //活动版块1

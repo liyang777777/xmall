@@ -1,8 +1,8 @@
 <template>
-  <!-- 品牌周边 -->
+  <!-- 品牌精选 -->
   <div class="All">
     <div class="Official">
-      <div class="title">品牌周边</div>
+      <div class="title">官方精选</div>
       <div class="List">
         <div v-for="(item,index) in Official" :key="index" class="hotList" :class="'hotList'+index">
           <div class="picture">

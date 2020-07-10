@@ -20,7 +20,7 @@
       <Around :around="around"></Around>
     </div>
     <div>
-      <Activity2 :activity2="activity2"></Activity2>
+      <Activity2 :Activity2="Activity2"></Activity2>
     </div>
   </div>
 </template>
@@ -28,7 +28,7 @@
 <script>
 import axios from "axios";
 import Rotation from "../components/Home/Rotation";
-import Activity1 from "../components/Home/Activity1 ";
+import Activity1 from "../components/Home/Activity1";
 import Products from "../components/Home/Products";
 import Official from "../components/Home/Official";
 import Brand from "../components/Home/Brand";
@@ -72,11 +72,11 @@ export default {
         // console.log(this.products);
         this.official = res.data[3].panelContents; //官方精选
         // console.log(this.official);
-         this.brand = res.data[4].panelContents; //品牌精选
+         this.brand = res.data[4].panelContents; //官方精选
         // console.log(this.official);
-         this.around = res.data[5].panelContents; //品牌周边
+         this.official = res.data[5].panelContents; //官方精选
         // console.log(this.official);
-         this.activity2 = res.data[6].panelContents; //活动版块2
+         this.official = res.data[6].panelContents; //官方精选
         // console.log(this.official);
       })
       .catch(err => {

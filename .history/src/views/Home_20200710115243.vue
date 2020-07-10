@@ -63,7 +63,7 @@ export default {
     this.$api
       .home()
       .then(res => {
-        console.log(res.data);
+        // console.log(res.data);
         this.rotation = res.data[0].panelContents; //首页轮播图
         // console.log(this.rotation);
         this.activity = res.data[1].panelContents; //活动版块1
@@ -73,7 +73,7 @@ export default {
         this.official = res.data[3].panelContents; //官方精选
         // console.log(this.official);
          this.brand = res.data[4].panelContents; //品牌精选
-        // console.log(this.official);
+        console.log(this.official);
          this.around = res.data[5].panelContents; //品牌周边
         // console.log(this.official);
          this.activity2 = res.data[6].panelContents; //活动版块2

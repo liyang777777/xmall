@@ -1,8 +1,8 @@
 <template>
-  <!-- 品牌周边 -->
+  <!-- 官方精选 -->
   <div class="All">
     <div class="Official">
-      <div class="title">品牌周边</div>
+      <div class="title">官方精选</div>
       <div class="List">
         <div v-for="(item,index) in Official" :key="index" class="hotList" :class="'hotList'+index">
           <div class="picture">
@@ -38,9 +38,9 @@ export default {
     return {};
   },
   methods: {
-    gotoDetails(item) {
+    gotoDetails(item){
       // 另开一个网页打开路由并传参
-      window.open("/details?productId=" + item.productId);
+      window.open('/details?productId='+ item.productId)
     }
   },
   mounted() {},

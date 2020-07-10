@@ -20,7 +20,7 @@
       <Around :around="around"></Around>
     </div>
     <div>
-      <Activity2 :activity2="activity2"></Activity2>
+      <Activity2 :Activity2="Activity2"></Activity2>
     </div>
   </div>
 </template>
